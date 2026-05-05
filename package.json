@@ -4,10 +4,10 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "build": "vite build",
-    "dev": "vite"
+    "build": "node node_modules/vite/bin/vite.js build",
+    "dev": "node node_modules/vite/bin/vite.js"
   },
-    "dependencies": {
+  "dependencies": {
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "@emotion/react": "^11.14.0",
